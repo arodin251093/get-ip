@@ -6,9 +6,11 @@ Utility to get geodata by IP or to get your public IP.
 
 ## Installation for Windows:
 
+### **First method:**
+
 Download `getip.exe`, put it in any directory and specify the path to this directory in PATH.
 
-or
+### **Second method:**
 
 Use the installation method described below for Linux, with a slight adjustment of the installation command:
 
