@@ -13,7 +13,7 @@ Download `getip.exe`, put it in any directory and specify the path to this direc
 You must have the `setuptools` package installed.
 
 ```
-pip3 install setuptools
+pip install setuptools
 ```
 
 Open the terminal in the utilities folder (where it is located setup.py ) and enter the command:
