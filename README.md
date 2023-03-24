@@ -12,6 +12,16 @@ or
 
 Use the installation method described below for Linux, with a slight adjustment of the installation command:
 
+***Note: to use this method, you must have python on your system.***
+
+You must have the setuptools package installed.
+
+```
+pip install setuptools
+```
+
+Open the terminal in the utilities folder (where it is located setup.py ) and enter the command:
+
 ```
 python setup.py install
 ```
