@@ -8,6 +8,11 @@ Utility to get geodata by IP or to get your public IP.
 
 Download `getip.exe`, put it in any directory and specify the path to this directory in PATH.
 
+or
+
+Use `setuptools` like a Linux install.
+
+
 ## Instalation for Linux:
 
 You must have the `setuptools` package installed.
