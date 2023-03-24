@@ -12,7 +12,7 @@ def test_get_current_ip_is_str():
 
 
 def test_get_current_ip_is_ip():
-    regex = r'\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}'
+    regex = r'(\d{1,3}\.){3}\d{1,3}'
     assert re.match(regex, get_current_ip())
 
 
