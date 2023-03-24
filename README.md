@@ -30,20 +30,11 @@ If `getip.exe` in the PATH on Windows:
 ```
 getip
 ```
-Else call this command from directory of `getip.py` file:
-```
-python3 getip.py
-```
 
 ## Get data of other IP:
 
-If `getip.exe` in the PATH on Windows:
 ```
 getip -i IP-address
-```
-Else call this command from directory of `getip.py` file:
-```
-python3 getip.py -i IP-address
 ```
 
 ## Example output:
