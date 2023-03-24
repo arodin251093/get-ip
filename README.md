@@ -10,7 +10,11 @@ Download `getip.exe`, put it in any directory and specify the path to this direc
 
 or
 
-Use `setuptools` like a Linux install.
+Use the installation method described below for Linux, with a slight adjustment of the installation command:
+
+```
+python setup.py install
+```
 
 
 ## Instalation for Linux:
@@ -29,18 +33,30 @@ sudo python3 setup.py install
 
 # Using:
 
-## Get data of your current public IP:
+You can use the utility without installation by running it as a simple python-script or install it and use it as a CLI-utility directly from the terminal.
 
-If `getip.exe` in the PATH on Windows:
+## Get data of your current public IP:
+### **CLI**:
 ```
 getip
 ```
+or
+### **Python-script**:
+```
+python getip.py
+```
 
 ## Get data of other IP:
+### **CLI:**
+```
+getip -i IP
+```
+or
+### **Python-script**:
+```
+python getip.py -i IP
+```
 
-```
-getip -i IP-address
-```
 
 ## Example output:
 
